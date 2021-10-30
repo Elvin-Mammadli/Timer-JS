@@ -37,7 +37,7 @@ function startCountDown() {
         else {
             clearInterval(totalSecInterval);
             clearInterval(milliSecInterval);
-            millisec.value = '9';
+            millisec.value = '0';
             sec.value = '00';
             min.value = '00';
         }

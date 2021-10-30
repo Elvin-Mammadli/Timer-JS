@@ -83,4 +83,23 @@ div.bottom {
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    background-color: white;
+    box-shadow: 0 2px 0 0 #6b2a4a;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.start:active {
+    background-color: rgb(30, 255, 0);
+    color: white;
+    box-shadow: 0 0px 0 0 #000000;
+}
+
+.reset:active {
+    background-color: rgb(17, 0, 255);
+    color: white;
+    box-shadow: 0 0px 0 0 #000000;
 }
