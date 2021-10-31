@@ -18,7 +18,7 @@ function startCountDown() {
         }
     }, 100);
 
-    let totalSeconds = (+min.value * 60 + +sec.value);
+    let totalSeconds = (sec.value <= 59) ? (+min.value * 60 + +sec.value) : +min.value * 60 + 59;
     let totalSecInterval = setInterval(() => {
         if (totalSeconds > 0) {
             totalSeconds -= 1
